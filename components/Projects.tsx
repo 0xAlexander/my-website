@@ -25,15 +25,12 @@ const jobProjects = [
     description:
       "Operating on 16 blockchains, MtopSwap is a next generation Decentralized Exchange. Its architecture, based on MetaDEX Aggregation, solves protocol and liquidity fragmentation, significantly improving UX. Version 2, released in Oct. 2023, achieved more than 1.5M in volume and 2000 monthly users.",
     skills: [
-      "Next.JS",
-      "Nest.js",
+      "Next.js",
       "Typescript",
       "JavaScript",
       "MUI",
       "Tailwind CSS",
       "Vercel",
-      "Railway",
-      "PWA",
       "Figma"
     ],
     link: "https://app.mtopswap.com",
