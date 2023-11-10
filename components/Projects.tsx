@@ -42,9 +42,8 @@ const jobProjects = [
     imagePath: "/meikopoulos.com.png",
     title: "meikopoulos.com",
     description:
-      "The portfolio webpage you are looking at right now. Coded in Visual Studio Code while eyeballing Brittany Chiang's website (they awesome). Code is opensource and free to re-use, under MIT license.",
+      "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
     skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
-    link: "https://github.com/0xAlexander",
   },
 ];
 
