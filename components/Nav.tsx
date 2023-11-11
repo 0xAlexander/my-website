@@ -44,15 +44,15 @@ export default function Nav() {
 
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
-      <div className="w-full flex lg:items-center lg:justify-start">
-        <Avatar className="w-48 h-auto border-2 border-primary">
-          <AvatarImage src="./avatar1.webp" />
-          <AvatarFallback className="w-48 h-48 rounded-full border-1 border-primary">
-            AM
-          </AvatarFallback>
-        </Avatar>
-      </div>
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
+        <div className="w-full flex lg:items-center lg:justify-start">
+          <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary">
+            <AvatarImage src="./avatar1.webp" />
+            <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
+              AM
+            </AvatarFallback>
+          </Avatar>
+        </div>
         <h1 className="text-5xl font-bold lg:text-start">
           Alexander Meikopoulos
         </h1>
