@@ -4,7 +4,7 @@ A personal website inspired by the design of [Brittany Chiang's website](https:/
 
 ## Implementation 🛠️
 
-This website was recreated from scratch by closely studying the design elements of Brittany Chiang's site. It's a homage to her exceptional design skills, and every effort has been made to credit their work appropriately.
+This website was recreated from scratch by closely studying the design elements of Brittany Chiang's site. It's a homage to their exceptional design skills, and every effort has been made to credit their work appropriately.
 
 ## Technical Stack 🧰
 
@@ -16,11 +16,11 @@ This website was recreated from scratch by closely studying the design elements 
 
 ## Design Credits 🎨
 
-The design of this site is based on the 5th iteration of Brittany Chiang's portfolio. I have recreated the design for my training and personal use while ensuring to give full credit to Brittany for her original and inspiring work.
+The design of this site is based on the 5th iteration of Brittany Chiang's portfolio. I have recreated the design for my training and personal use while ensuring to give full credit to Brittany for their original and inspiring work.
 
 ### Disclaimer ⚠️
 
-This site is not intended as a direct clone of Brittany Chiang's website but rather as a personal interpretation and implementation of her design. The coding and development were done by me, independently, by eyeballing their design.
+This site is not intended as a direct clone of Brittany Chiang's website but rather as a personal interpretation and implementation of their design. The coding and development were done by me, independently, by eyeballing their design.
 
 ### Acknowledgement 👏
 
