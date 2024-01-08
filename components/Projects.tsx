@@ -31,7 +31,7 @@ const jobProjects = [
       "MUI",
       "Tailwind CSS",
       "Vercel",
-      "Figma"
+      "Figma",
     ],
     link: "https://app.mtopswap.com",
   },
@@ -41,6 +41,7 @@ const jobProjects = [
     description:
       "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
     skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
+    link: "https://github.com/0xAlexander/my-website",
   },
 ];
 
