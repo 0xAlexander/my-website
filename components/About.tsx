@@ -10,28 +10,41 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          I began coding and exploring web development at age 17, drawn to the
-          magical process of turning ideas into reality and enjoying the
-          problem-solving nature of the process. I designed and developed a few
-          websites from that point onwards, but at 21, my journey took a detour
-          when military service called. After serving, I pivoted to the
-          Engineering and Manufacturing sector, where I played a pivotal role in
-          overseeing Quality for large-scale renewable energy projects.
+          I started my coding journey at 17, fascinated by the idea of
+          transforming rough concepts and ideas into realities through
+          programming. This passion led me to design and develop various
+          websites as a freelancer, but at 21, my path briefly diverged into
+          military service. Upon completing my service duties, I shifted focus
+          towards the engineering and manufacturing sector, where I played a
+          pivotal role in overseeing Quality for large-scale renewable energy
+          projects.
         </p>
         <p className="text-start  text-muted-foreground lg:px-6">
-          Simultaneously, the last 4 years I&#39;ve been immersed in the world
-          of Web3. 2 years ago I co-founded MtopSwap, where i&#39;ve also been
-          the Head of Engineering and Development. I&#39;ve enjoyed leading a
-          team that&#39;s pioneering in decentralized application development.
-          It&#39;s been a hands-on, challenging experience that has honed my
-          technical and leadership skills.
+          In the past four years, my journey took another exciting turn as I
+          immersed myself into the Web3 space. Frustrated by the prevalent
+          user-oriented issues, I co-founded{" "}
+          <a
+            style={{ whiteSpace: "nowrap", textDecoration: "underline" }}
+            href="https://swoop.exchange"
+            target="blank"
+          >
+            Swoop Exchange
+          </a>{" "}
+          (originally MtopSwap) two years ago. Our mission was clear: to tackle
+          the fragmentation of liquidity and protocols and simplify the
+          Decentralized Finance onboarding process for the next billion users.
+          As part of a small, dedicated team, I&#39;ve been actively involved in
+          hands-on development, UI/UX design, strategy, and research. Since its
+          release in February 2023, Swoop Exchange has reached 3.3 million in
+          volume and roughly 2,000 monthly users, and still growing.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
           Outside of work, I enjoy reading about blockchain and cryptography and
           spend a lot of time outdoors, whether that&#39;s hiking or simply
           enjoying nature. Looking to the future, my goal is to transition fully
-          into the tech industry, where I can apply my Frontend Development and
-          Leadership knowledge, with my multi-year QA expertise.
+          into the tech industry, applying my skills in frontend development,
+          and the extensive quality assurance knowledge I&#39;ve gained over the
+          years.
         </p>
       </div>
     </section>
