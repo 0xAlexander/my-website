@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   title: "Alexander Meikopoulos",
   description:
-    "Alexander Meikopoulos is a Front-end Software Engineer and Project Leader with expertise in Quality excellence and Web3 technology.",
+    "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
   keywords:
     "Alexander Meikopoulos, Front-end Engineer, Project Leader, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
   openGraph: {
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     type: "website",
     title: "Alexander Meikopoulos",
     description:
-      "Alexander Meikopoulos is a Front-end Software Engineer and Project Leader with expertise in Quality excellence and Web3 technology.",
+      "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
     url: "https://meikopoulos.com",
     images: [
       {
-        url: "./og_large.png",
+        url: "./og-large-meik.png",
       },
     ],
   },
