@@ -13,11 +13,11 @@ import { MoveRight } from "lucide-react";
 const jobPositions = [
   {
     timeline: "Feb 2022 — Present",
-    currentPosition: "Co-founder, Head of Engineering & Development",
-    place: "MtopSwap",
+    currentPosition: "Co-founder, Engineering & Development",
+    place: "Swoop Exchange",
     previousPositions: [""],
     description:
-      "Co-Founded MtopSwap and lead as Head of Engineering & Strategic Development, driving the project’s technical execution and strategic vision. Completely lead the design, development and launch of MtopSwap V2.",
+      "Co-founded Swoop Exchange and led its Engineering & Development, guiding the project's technical execution and strategic vision. My role was hands-on, involving the development, design, and coding of essential components. Simultaneously, I focused on directing the project's technical path.",
     skills: [
       "Typescript",
       "JavaScript",
@@ -119,7 +119,7 @@ export default function ExpCard() {
       <div className="lg:px-12 mt-12">
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/resume-2023.pdf"
+          href="/am-resume-2024.pdf"
         >
           <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
             View Full Resume
