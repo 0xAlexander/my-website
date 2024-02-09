@@ -12,18 +12,26 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/mtopswap.png",
-    title: "MtopSwap - Landing Page",
+    imagePath: "/swoop-og-banner.webp",
+    title: "Swoop Exchange - Landing Page",
     description:
-      "MtopSwap's landing page is the gateway to its Decentralized Application, operating across 16 blockchains. It highlights the platform's use cases and solutions, streamlining trading and enhancing user experience.",
-    skills: ["Next.js", "Typescript", "JavaScript", "Vercel", "Figma"],
-    link: "https://mtopswap.com",
+      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps.  Swoop Exchange has achieved more than 3M in volume and currently has around 2000 monthly users with 0 paid marketing.",
+    skills: [
+      "Next.js",
+      "Framer",
+      "Shadcn/ui",
+      "Typescript",
+      "JavaScript",
+      "Vercel",
+      "Figma",
+    ],
+    link: "https://swoop.exchange",
   },
   {
-    imagePath: "/mtopswap_app2.png",
-    title: "MtopSwap - Application",
+    imagePath: "/app-front-1.png",
+    title: "Swoop Exchange - Application",
     description:
-      "Operating on 16 blockchains, MtopSwap is a next generation Decentralized Exchange. Its architecture, based on MetaDEX Aggregation, solves protocol and liquidity fragmentation, significantly improving UX. Version 2, released in Oct. 2023, achieved more than 1.5M in volume and 2000 monthly users.",
+      "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
     skills: [
       "Next.js",
       "Typescript",
@@ -36,7 +44,7 @@ const jobProjects = [
     link: "https://app.mtopswap.com",
   },
   {
-    imagePath: "/meikopoulos.com.png",
+    imagePath: "/meikopoulos.com_PC.png",
     title: "meikopoulos.com",
     description:
       "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
@@ -67,9 +75,10 @@ export default function Projects() {
                 <Image
                   src={project.imagePath}
                   alt={`Screenshot of ${project.title}`}
-                  width={150}
-                  height={50}
-                  className="mt-2 border border-muted-foreground rounded-[0.5rem]"
+                  width={1920}
+                  height={1080}
+                  priority
+                  className="bg-[#141414] mt-2 border border-muted-foreground rounded-[0.5rem]"
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
