@@ -35,7 +35,7 @@ export default function About() {
           Decentralized Finance onboarding process for the next billion users.
           As part of a small, dedicated team, I&#39;ve been actively involved in
           hands-on development, UI/UX design, strategy, and research. Since its
-          release in February 2023, Swoop Exchange has reached 3.3 million in
+          release in October 2023, Swoop Exchange has reached 3.3 million in
           volume and roughly 2,000 monthly users, and still growing.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
