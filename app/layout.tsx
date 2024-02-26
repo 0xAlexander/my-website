@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://meikopoulos.com",
     images: [
       {
-        url: "./og-large-meik.png",
+        url: "./og-large-meik.jpg",
       },
     ],
   },
