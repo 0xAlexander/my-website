@@ -15,7 +15,7 @@ const jobProjects = [
     imagePath: "/swoop-og-banner.webp",
     title: "Swoop Exchange - Landing Page",
     description:
-      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps.  Swoop Exchange has achieved more than 3M in volume and currently has around 2000 monthly users with 0 paid marketing.",
+      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
     skills: [
       "Next.js",
       "Framer",

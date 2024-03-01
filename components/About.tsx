@@ -10,41 +10,34 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          I started my coding journey at 17, fascinated by the idea of
-          transforming rough concepts and ideas into realities through
-          programming. This passion led me to design and develop various
-          websites as a freelancer, but at 21, my path briefly diverged into
-          military service. Upon completing my service duties, I shifted focus
-          towards the engineering and manufacturing sector, where I played a
-          pivotal role in overseeing Quality for large-scale renewable energy
-          projects.
+          I embarked on my tech journey at 17, diving into web development with
+          a passion for bringing ideas to life. This passion led me to design
+          and develop various websites as a freelancer. After military service,
+          I ventured into quality assurance within the engineering sector,
+          focusing on renewable energy projects.
         </p>
         <p className="text-start  text-muted-foreground lg:px-6">
-          In the past four years, my journey took another exciting turn as I
-          immersed myself into the Web3 space. Frustrated by the prevalent
-          user-oriented issues, I co-founded{" "}
+          In parallel, my path took an exciting turn into the Web3 space,
+          co-founding{" "}
           <a
-            style={{ whiteSpace: "nowrap", textDecoration: "underline" }}
+            className="no-wrap text-primary dark:text-white"
             href="https://swoop.exchange"
             target="blank"
+            rel="noopener noreferrer"
           >
             Swoop Exchange
           </a>{" "}
-          (originally MtopSwap) two years ago. Our mission was clear: to tackle
-          the fragmentation of liquidity and protocols and simplify the
-          Decentralized Finance onboarding process for the next billion users.
-          As part of a small, dedicated team, I&#39;ve been actively involved in
-          hands-on development, UI/UX design, strategy, and research. Since its
-          release in October 2023, Swoop Exchange has reached 3.3 million in
-          volume and roughly 2,000 monthly users, and still growing.
+          two years ago, in a mission to tackle the fragmentation of liquidity
+          and protocols and simplify the Decentralized Finance onboarding
+          process for the next billion users. Our platform has quickly reached
+          critical milestones, boasting a trading volume of millions USD and
+          attracting over 4,000 monthly active users.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
-          Outside of work, I enjoy reading about blockchain and cryptography and
-          spend a lot of time outdoors, whether that&#39;s hiking or simply
-          enjoying nature. Looking to the future, my goal is to transition fully
-          into the tech industry, applying my skills in frontend development,
-          and the extensive quality assurance knowledge I&#39;ve gained over the
-          years.
+          Outside of work, I&#39;m an avid reader of blockchain and cryptography
+          and enjoy my time outdoors. Looking forward, I aim to leverage my
+          frontend development and quality assurance expertise to contribute to
+          impactful tech ventures.
         </p>
       </div>
     </section>
