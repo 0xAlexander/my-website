@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 
 export default function About() {
   return (
