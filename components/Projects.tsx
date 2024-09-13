@@ -12,6 +12,36 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
+    imagePath: "/vela.avif",
+    title: "Vela Exchange - Product Design",
+    description:
+      "Led a team of 4 designers, implementing design systems and processes to launch flagship features like Duels, Accounts, Loyalty Tiers, and Notification Tray and System.",
+    skills: [
+      "Product Design",
+      "UI/UX Design",
+      "Design System",
+      "Design Strategy",
+      "Vercel",
+      "Figma",
+    ],
+    link: "https://vela.exchange",
+  },
+  {
+    imagePath: "/l3x.avif",
+    title: "L3X Network - Founding Product Design",
+    description:
+      "L3X Network is a Layer 3 interoperability blockchain designed to provide institutions, developers, and users with secure, compliant, and efficient access to decentralized finance (DeFi) markets. My role involved founding and leading the design team, mapping UX, and designing the protocol's Landing Page and Interfaces for the Bridge, Trading, Swap, and Staking platforms.",
+    skills: [
+      "Product Design",
+      "UI/UX Design",
+      "Design System",
+      "Design Strategy",
+      "Vercel",
+      "Figma",
+    ],
+    link: "https://l3x.com",
+  },
+  {
     imagePath: "/swoop-og-banner.webp",
     title: "Swoop Exchange - Landing Page",
     description:
@@ -29,7 +59,7 @@ const jobProjects = [
   },
   {
     imagePath: "/app-front-1.png",
-    title: "Swoop Exchange - Application",
+    title: "Swoop Exchange - Application Design",
     description:
       "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
     skills: [
@@ -70,7 +100,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hover:cursor-pointer"
           >
-            <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
+            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
                 <Image
                   src={project.imagePath}

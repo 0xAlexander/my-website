@@ -57,11 +57,12 @@ export default function Nav() {
           Hi, i&#39;m Alexander 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Front-End Developer, founder, and Quality nerd.
+          Product designer, developer, founder.
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I build seamless, user-first applications and web experiences that
-          bridge the gap between tech and people.
+          I help innovative startups in AI, Web3, and Finance craft exceptional
+          user experiences, translating complex technologies into intuitive
+          interfaces that resonate with humans.
         </p>
       </div>
       <nav className="lg:flex hidden">

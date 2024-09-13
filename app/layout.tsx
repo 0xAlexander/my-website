@@ -11,22 +11,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://meikopoulos.com",
   },
-  title: "Alexander Meikopoulos",
+  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
   description:
-    "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
+    "Alexander Meikopoulos is a Product designer, developer & founder.",
   keywords:
-    "Alexander Meikopoulos, Front-end Engineer, Project Leader, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
+    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
   openGraph: {
     locale: "en_US",
     siteName: "Alexander Meikopoulos",
     type: "website",
     title: "Alexander Meikopoulos",
     description:
-      "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
+      "Alexander Meikopoulos is a Product designer, developer & founder.",
     url: "https://meikopoulos.com",
     images: [
       {
-        url: "./og-large-meik.jpg",
+        url: "./og-large-meik-2.jpg",
       },
     ],
   },

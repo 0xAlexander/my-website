@@ -12,12 +12,43 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Feb 2022 — Present",
-    currentPosition: "Co-founder, Engineering & Development",
+    timeline: "Aug 2024 — Present",
+    currentPosition: "Founding Designer & Head of Product Design",
+    place: "Stealth AI Startup",
+    previousPositions: [""],
+    description:
+      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
+    skills: [
+      "Brand Identity",
+      "Product Design",
+      "UI/UX Design",
+      "Design Systems",
+      "Design Strategy",
+      "Team Leadership",
+    ],
+  },
+  {
+    timeline: "Mar 2024 — Present",
+    currentPosition: "Head of Product Design",
+    place: "Vela Exchange",
+    previousPositions: ["Designer and Front-end Developer"],
+    description:
+      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
+    skills: [
+      "Product Design",
+      "UI/UX Design",
+      "Design Systems",
+      "Design Strategy",
+      "Team Leadership",
+    ],
+  },
+  {
+    timeline: "Feb 2022 — Presents",
+    currentPosition: "Co-founder, Designer & Developer",
     place: "Swoop Exchange",
     previousPositions: [""],
     description:
-      "Co-founded Swoop Exchange and led its Engineering & Development, guiding the project's technical execution and strategic vision. My role was hands-on, involving the development, design, and coding of essential components. Simultaneously, I focused on directing the project's technical path.",
+      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
     skills: [
       "Typescript",
       "JavaScript",
@@ -35,7 +66,7 @@ const jobPositions = [
     ],
   },
   {
-    timeline: "Aug 2016 — Present",
+    timeline: "Aug 2016 — Mar 2024",
     currentPosition: "Head of QA",
     place: "Lykomitros Steel",
     previousPositions: [
@@ -88,7 +119,7 @@ export default function ExpCard() {
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
           >
             <CardHeader className="h-full w-full p-0">
               <CardTitle className="text-base text-slate-400 whitespace-nowrap">
@@ -96,7 +127,7 @@ export default function ExpCard() {
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">
-              <p className="text-primary font-bold">
+              <p className="text-foreground font-bold">
                 {job.currentPosition} • {job.place}
               </p>
               {job.previousPositions.map((position, index) => (
@@ -118,11 +149,13 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12">
         <a
+          href="mailto:alexander@meikopoulos.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/am-resume-2024.pdf"
         >
           <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            View Full Resume
+            Reach out for Full Resume
           </span>
           <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
         </a>
